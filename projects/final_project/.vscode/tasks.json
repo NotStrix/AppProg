@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: Build Battleship Project",
+			"command": "C:/msys64/ucrt64/bin/gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-Wall",
+				"-Wextra",
+				"-g",
+				"C:/Users/rosar/Documents/AppProg_FinalProject/main.c",
+				"C:/Users/rosar/Documents/AppProg_FinalProject/functions.c",
+				"-o",
+				"C:/Users/rosar/Documents/AppProg_FinalProject/output/main.exe"
+			],
+			"options": {
+				"cwd": "C:/msys64/ucrt64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:/msys64/ucrt64/bin/gcc.exe"
+		}
+	]
+}
